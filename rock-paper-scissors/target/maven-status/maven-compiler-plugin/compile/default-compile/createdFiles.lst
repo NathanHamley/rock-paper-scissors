@@ -1,0 +1,12 @@
+de\nhamley\rock\paper\scissors\evaluation\DefaultEvaluator.class
+de\nhamley\rock\paper\scissors\strategies\AlwaysScissors.class
+de\nhamley\rock\paper\scissors\evaluation\ResultType.class
+de\nhamley\rock\paper\scissors\models\Game.class
+de\nhamley\rock\paper\scissors\evaluation\DefaultEvaluator$1.class
+de\nhamley\rock\paper\scissors\models\ActionType.class
+de\nhamley\rock\paper\scissors\strategies\IStrategy.class
+de\nhamley\rock\paper\scissors\evaluation\IEvaluator.class
+de\nhamley\rock\paper\scissors\strategies\RandomPlayType.class
+de\nhamley\rock\paper\scissors\models\Player.class
+de\nhamley\rock\paper\scissors\results\Result.class
+de\nhamley\rock\paper\scissors\models\Game$1.class
