@@ -1,6 +1,9 @@
 package de.nhamley.rock.paper.scissors.results;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import de.nhamley.rock.paper.scissors.models.Player;
@@ -65,10 +68,15 @@ public class Result {
 
     @Override
     public String toString() {
-        StringBuilder res = new StringBuilder();
+        List<String> outputList = new ArrayList<>();
         for (Player p : results.keySet()) {
             String name = p == null ? "Tie: " : p.getName() + " wins ";
-            res.append(name + results.get(p) + " of " + totalGames + " games" + "\n");
+            outputList.add(name + results.get(p) + " of " + totalGames + " games");
+        }
+        Collections.sort(outputList);
+        StringBuilder res = new StringBuilder();
+        for(String s: outputList){
+            res.append(s + "\n");
         }
         return res.toString();
     }
